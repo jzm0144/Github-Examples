@@ -1,0 +1,13 @@
+name: Scheduled Event Workflow
+on:
+  schedule:
+    - cron: '*/5 * * * *' #every 5 minutes
+
+jobs:
+  hello_world:
+  runs_on: ubuntu-latest
+  steps:
+    - name: Echo Current Time
+    - run: echo "The current server time is ${date}
+
+  
