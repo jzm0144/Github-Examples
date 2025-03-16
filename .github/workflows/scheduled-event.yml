@@ -1,4 +1,4 @@
-name: Scheduled Event Workflow
+name: Scheduled-Event-Workflow
 
 on:
   schedule:
